@@ -1,1 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBER-FOOTBALL // Módulo Tático 2026</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="cyber-grid-background"></div>
+    <div class="scanline"></div>
 
+    <header class="cyber-header">
+        <div class="logo-container">
+            <i class="fa-solid fa-atom cyber-icon spin"></i>
+            <span class="logo-text">NEO<span class="highlight">FOOTBALL</span>_OS</span>
+            <span class="version-tag">v3.0.42</span>
+        </div>
+        
+        <nav class="cyber-nav">
+            <a href="#arena" class="nav-link active"><i class="fa-solid fa-crosshairs"></i> Arena Tática</a>
+            <a href="#stats" class="nav-link"><i class="fa-solid fa-chart-network"></i> Biometria</a>
+            <a href="#simulations" class="nav-link"><i class="fa-solid fa-brain"></i> Simulação IA</a>
+            <a href="#transfers" class="nav-link"><i class="fa-solid fa-network-wired"></i> Rede Mercado</a>
+        </nav>
+
+        <div class="system-status">
+            <span class="status-dot"></span>
+            <span class="status-text">SYSTEM ONLINE</span>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <!-- HERO SECTION: ARENA PRINCIPAL -->
+        <section id="arena" class="hero-cyber">
+            <div class="hero-content">
+                <div class="cyber-badge"><i class="fa-solid fa-bolt"></i> ANÁLISE PREDITIVA EM TEMPO REAL</div>
+                <h1 class="glitch-title" data-text="A EVOLUÇÃO DO FUTEBOL">A EVOLUÇÃO DO FUTEBOL</h1>
+                <p class="hero-description">
+                    Processamento biométrico avançado, rastreamento quântico da bola e projeções táticas baseadas em inteligência artificial autônoma.
+                </p>
+                <div class="cta-group">
+                    <button class="cyber-button primary" id="btn-nexus">
+                        <span class="btn-content">INICIAR CONEXÃO <i class="fa-solid fa-terminal"></i></span>
+                        <span class="btn-glitch"></span>
+                    </button>
+                    <button class="cyber-button secondary" id="btn-telemetry">
+                        <span class="btn-content">TELEMETRIA <i class="fa-solid fa-satellite-dish"></i></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="hologram-card">
+                <div class="card-header">
+                    <span class="card-title"><i class="fa-solid fa-shield-halved"></i> JOGADOR EM DESTAQUE</span>
+                    <span class="card-id">ID-9948-X</span>
+                </div>
+                <div class="hologram-avatar">
+                    <div class="avatar-ring"></div>
+                    <i class="fa-solid fa-user-ninja avatar-icon"></i>
+                </div>
+                <div class="player-info">
+                    <h3>CYBER_STRIKER 09</h3>
+                    <p class="position">Avançado Centro Neon</p>
+                </div>
+                <div class="stats-bars">
+                    <div class="stat-item">
+                        <div class="stat-label"><span>VELOCIDADE</span> <span>98.4 km/h</span></div>
+                        <div class="bar-container"><div class="bar-fill" style="width: 98%;"></div></div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label"><span>PRECISÃO DE CHUTE</span> <span>96.2%</span></div>
+                        <div class="bar-container"><div class="bar-fill" style="width: 96%;"></div></div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label"><span>RESISTÊNCIA BIONICA</span> <span>91.0%</span></div>
+                        <div class="bar-container"><div class="bar-fill" style="width: 91%;"></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DASHBOARD DE ESTATÍSTICAS EM TEMPO REAL -->
+        <section id="stats" class="cyber-section">
+            <h2 class="section-title"><i class="fa-solid fa-microchip"></i> METRICAS DA PARTIDA AO VIVO</h2>
+            
+            <div class="grid-metrics">
+                <div class="metric-card">
+                    <div class="metric-icon"><i class="fa-solid fa-gauge-high"></i></div>
+                    <div class="metric-data">
+                        <h4>POSSESSÃO VIRTUAL</h4>
+                        <div class="metric-value" id="possession-val">68.4%</div>
+                        <div class="metric-trend positive"><i class="fa-solid fa-caret-up"></i> +2.3% vs Média</div>
+                    </div>
+                </div>
+
+                <div class="metric-card">
+                    <div class="metric-icon"><i class="fa-solid fa-bullseye"></i></div>
+                    <div class="metric-data">
+                        <h4>XG (GOLS ESPERADOS)</h4>
+                        <div class="metric-value">3.42</div>
+                        <div class="metric-trend positive"><i class="fa-solid fa-caret-up"></i> Alta Eficiência</div>
+                    </div>
+                </div>
+
+                <div class="metric-card">
+                    <div class="metric-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                    <div class="metric-data">
+                        <h4>DESGASTE COLETIVO</h4>
+                        <div class="metric-value">42.1%</div>
+                        <div class="metric-trend negative"><i class="fa-solid fa-caret-down"></i> Estável</div>
+                    </div>
+                </div>
+
+                <div class="metric-card">
+                    <div class="metric-icon"><i class="fa-solid fa-satellite"></i></div>
+                    <div class="metric-data">
+                        <h4>PRESSÃO NO CAMPO</h4>
+                        <div class="metric-value">89.1</div>
+                        <div class="metric-trend positive"><i class="fa-solid fa-caret-up"></i> Zona Alta</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CAMPO TÁTICO HOLOGRÁFICO -->
+        <section id="simulations" class="cyber-section">
+            <h2 class="section-title"><i class="fa-solid fa-vr-cardboard"></i> SIMULADOR TÁTICO HOLOGRÁFICO</h2>
+            
+            <div class="tactical-board">
+                <div class="field-overlay">
+                    <div class="field-line center-circle"></div>
+                    <div class="field-line penalty-area left"></div>
+                    <div class="field-line penalty-area right"></div>
+                    <div class="field-line half-line"></div>
+                </div>
+
+                <!-- Jogadores em Campo (Nós Neon) -->
+                <div class="node-player p1" style="top: 50%; left: 10%;" data-player="Goleiro Biónico">GK</div>
+                <div class="node-player p2" style="top: 25%; left: 30%;" data-player="Zagueiro Efeito 01">DEF</div>
+                <div class="node-player p3" style="top: 75%; left: 30%;" data-player="Zagueiro Efeito 02">DEF</div>
+                <div class="node-player p4" style="top: 50%; left: 55%;" data-player="Maestro Quântico">MID</div>
+                <div class="node-player p5" style="top: 20%; left: 80%;" data-player="Ponta Neon Esquerda">FWD</div>
+                <div class="node-player p6" style="top: 80%; left: 80%;" data-player="Ponta Neon Direita">FWD</div>
+
+                <div class="cyber-ball" style="top: 50%; left: 58%;"></div>
+            </div>
+        </section>
+
+        <!-- FEED DE TERMINAL DE NOTÍCIAS -->
+        <section id="transfers" class="cyber-section">
+            <h2 class="section-title"><i class="fa-solid fa-terminal"></i> TRANSMISSÃO DE DADOS // LOGS DE MERCADO</h2>
+            
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="terminal-title">live_market_feed.sh</span>
+                </div>
+                <div class="terminal-body" id="terminal-content">
+                    <p class="log-line"><span class="timestamp">[14:32:01]</span> <span class="sys-ok">[OK]</span> Transferência de contrato de dados confirmada: <span class="highlight-text">Striker_V9</span> transferido para o Neo-Madrid.</p>
+                    <p class="log-line"><span class="timestamp">[14:31:45]</span> <span class="sys-warn">[ALERT]</span> Atualização de firmware aplicada nas chuteiras magnéticas de todos os atletas.</p>
+                    <p class="log-line"><span class="timestamp">[14:28:10]</span> <span class="sys-info">[INFO]</span> Algoritmo preditivo calcula 78% de chance de vitória para os mandantes na próxima partida.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="cyber-footer">
+        <div class="footer-content">
+            <p>&copy; 2026 NEOFOOTBALL OS // TODOS OS DIREITOS RESERVADOS À REDE CIBERNÉTICA.</p>
+            <div class="footer-status">
+                <span>LATÊNCIA: 12ms</span>
+                <span>SERVIDOR: TOKYO-NEON-01</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- O próximo arquivo a ser solicitado será o CSS (style.css) e em seguida o JS (script.js) -->
+</body>
+</html>
